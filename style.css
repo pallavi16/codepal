@@ -982,6 +982,57 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   letter-spacing: 3px;
 }
 
+
+
+.second-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 10vh;
+  background-color: #FFA818;
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+ul h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+color: #000;
+margin: 10px;
+font-weight: 600;
+
+}
+.second-nav  li {
+  margin: 15px;
+  
+}
+
+.second-nav  li:hover {
+  border-bottom: 4px solid #0c0903;
+}
+
+.second-nav  li:active {
+  border-bottom: 4px solid #0c0805;
+}
+
+.second-nav  li:focus {
+  outline: 1px dotted #d8cebd;
+}
+
+.second-nav a {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #030200;
+}
+
 .hamburger {
   display: none;
   text-align: right;
@@ -1959,7 +2010,7 @@ footer p {
   padding: 10px;
   position: absolute;
   margin-left: 880px;
-  margin-top: 120px;
+  margin-top: 50px;
   background-color: #000;
   color: #F06000;
 }
