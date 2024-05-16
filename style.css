@@ -2000,7 +2000,6 @@ footer p {
   }
 }
 
-
 .wrapper .resume {
   position: relative;
 }
@@ -2018,4 +2017,24 @@ footer p {
 .btn:hover {
   color: rgb(150, 45, 45);
   border-color: #F06000;
+}
+
+.details {
+  background-color: #b06e05;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-heading {
+  color: #dc9f3b;
+}
+
+.details-image{
+  width: 90%;
+  height: 90%;
 }
