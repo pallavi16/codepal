@@ -255,15 +255,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   width: 100%;
 }
 
+
+
 .video-embed {
-  position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 */
+  aspect-ratio: 16 / 9;
 }
 
 .video-embed iframe {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   border-radius: 8px;
