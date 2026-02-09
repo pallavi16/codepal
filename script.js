@@ -45,6 +45,16 @@ app.switchLight = () => {
     })
 }
 
+document.querySelectorAll(".expander-toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const target = document.getElementById(btn.dataset.target);
+    const open = target.classList.toggle("open");
+    btn.textContent = open ? "Hide Screenshots" : "View Screenshots";
+  });
+});
+
+
+
 
 // Doc Init
 app.init = () => {
